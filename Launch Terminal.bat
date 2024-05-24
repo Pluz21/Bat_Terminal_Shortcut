@@ -1,5 +1,4 @@
-set _user="%USERPROFILE%"
-set _path="AppData\Local\Microsoft\WindowsApps\wt.exe"
+set _path="%USERPROFILE%\AppData\Local\Microsoft\WindowsApps"
 set "_delay=0.1"
-start "" "%_user%\%_path%"
+start ""%_path%"
 timeout /t %_delay% /nobreak >nul
